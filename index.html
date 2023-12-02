@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=git, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/FonisaHakaton/STYLE/index.css" />
+    <meta name="viewport" content="width=git, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="navbarHolder">
+      <a href="#">Home</a>
+      <a href="#">Timer</a>
+      <a href="#">Strikethrough</a>
+    </div>
 
-    <h1>push je uspesan i pored ovog govneta</h1>
-    
-</body>
+    <div class="popUpHolder" id="popUpHolder">
+      <div class="popUp">
+        <h2>Unesi broj minuta koliko si učio:</h2>
+        <input type="text" id="input" />
+        <button id="submit" onclick="posalji()">Pošalji</button>
+      </div>
+    </div>
+
+    <button class="button" onclick="dodaj()">Dodaj životinju</button>
+
+    <section class="hero">
+      <!-- <h1 class="title">Proširi svoje životinjsko carstvo</h1> -->
+      <img
+        src="/FonisaHakaton//IMG/Pozadina.png"
+        alt="Pozadina"
+        id="background"
+      />
+    </section>
+
+    <script src="/FonisaHakaton//SCRIPT/index.js"></script>
+  </body>
 </html>
