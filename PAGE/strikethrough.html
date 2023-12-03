@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../STYLE/strikethrough.css">
+    <title>To-do</title>
+    
+</head>
+<body>
+
+    
+    
+
+
+<div class="forma">
+    <div id="dateDisplay"></div>
+
+    <br><br>
+    <form id="dataForm" onsubmit="displayData(); return false;">
+        <input type="text" id="dataInput" placeholder="Unesi zadatak">
+        <br><br>
+        <label for="startTime" class="vreme">Početak:</label>
+        <input type="time" id="startTime" class="vreme" name="startTime">
+        <br>
+        <br>
+        <label for="endTime" class="vreme">Kraj:</label>
+        <input type="time" id="endTime" class="vreme" name="endTime">
+        <br>
+        <br>
+        <input type="submit" id="button" value="SAČUVAJ">
+    </form>
+</div>
+<br>
+<div class="outputs">
+<img class="papir" src="../slike/paper2.jpg" alt="papir">
+<div id="output"></div>
+</div>
+
+<script src="../SCRIPT/strikethrough.js"></script>
+
+</body>
+</html>
+
+
