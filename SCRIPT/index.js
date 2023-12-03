@@ -18,7 +18,7 @@ function dodaj() {
 
 function posalji() {
   let input = document.getElementById("input").value;
-  console.log(input);
+
   document.getElementById("popUpHolder").style.display = "none";
   brojac = brojac + 1;
 
@@ -248,13 +248,28 @@ function posalji() {
     zlatne++;
   }
   if (brojZivotinje == 15) {
-    alert(
-      "Broj obicnih> " +
-        obicne +
-        ", Broj srebrnih> " +
-        srebrne +
-        ", Broj zlatnih> " +
-        zlatne
-    );
+    document.getElementById("banner").style.display = "block";
+
+    document.getElementById("prazno").textContent =
+      14 - zlatne - srebrne - obicne;
+    document.getElementById("obicno").textContent = obicne;
+    document.getElementById("srebrno").textContent = srebrne;
+    document.getElementById("zlatno").textContent = zlatne;
+
+    document.getElementById("background").style.webkitFilter = "blur(5px)";
+    document.getElementById("zivotinja1").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja2").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja3").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja4").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja5").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja6").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja7").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja8").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja9").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja10").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja11").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja12").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja13").style.webkitFilter = "blur(1px)";
+    document.getElementById("zivotinja14").style.webkitFilter = "blur(1px)";
   }
 }

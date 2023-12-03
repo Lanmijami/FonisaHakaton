@@ -24,7 +24,7 @@ body {
 }
 
 .navbarHolder {
-  height: 20px;
+  height: 50px;
   background-color: rgb(209, 190, 166);
   display: flex;
   justify-content: space-evenly;
@@ -35,7 +35,6 @@ body {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.2);
-  padding: 20px;
 }
 
 .navbarHolder a {

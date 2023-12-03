@@ -8,7 +8,7 @@
 }
 
 .navbarHolder {
-  height: 20px;
+  height: 50px;
   background-color: rgb(209, 190, 166);
   display: flex;
   justify-content: space-evenly;
@@ -19,7 +19,6 @@
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.2);
-  padding: 20px;
 }
 
 .navbarHolder a {
@@ -85,6 +84,12 @@ body {
   font-size: large;
 }
 
+#button:hover {
+  cursor: pointer;
+  background-color: rgb(121, 151, 175);
+  transform: scale(1.1);
+}
+
 .vreme {
   padding: 20px;
   border-radius: 20px;
@@ -98,7 +103,7 @@ body {
   line-height: 33px;
   font-size: 25px;
   top: 97px;
-  right: 390px;
+  left: 900px;
 }
 
 .container {
