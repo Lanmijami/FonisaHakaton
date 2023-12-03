@@ -44,16 +44,16 @@ function posalji() {
     document.getElementById("zivotinja1").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 2 && parseInt(input) <= 60) {
-    document.getElementById("zivotinja2").src = "./PIC/lav.png";
-    document.getElementById("zivotinja2").style.display = "block";
+    document.getElementById("zivotinja10").src = "./PIC/lav.png";
+    document.getElementById("zivotinja10").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 2 && parseInt(input) <= 120) {
-    document.getElementById("zivotinja2").src = "./PICAG/lav.png";
-    document.getElementById("zivotinja2").style.display = "block";
+    document.getElementById("zivotinja10").src = "./PICAG/lav.png";
+    document.getElementById("zivotinja10").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 2 && parseInt(input) <= 6000) {
-    document.getElementById("zivotinja2").src = "./PICAU/lav.png";
-    document.getElementById("zivotinja2").style.display = "block";
+    document.getElementById("zivotinja10").src = "./PICAU/lav.png";
+    document.getElementById("zivotinja10").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 3 && parseInt(input) <= 60) {
     document.getElementById("zivotinja3").src = "./PIC/lisica.png";
@@ -108,12 +108,12 @@ function posalji() {
     document.getElementById("zivotinja7").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 7 && parseInt(input) <= 120) {
-    document.getElementById("zivotinja7").src = "./PICAG/rakun.png";
-    document.getElementById("zivotinja7").style.display = "block";
+    document.getElementById("zivotinja13").src = "./PICAG/rakun.png";
+    document.getElementById("zivotinja13").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 7 && parseInt(input) <= 6000) {
-    document.getElementById("zivotinja7").src = "./PICAU/rakun.png";
-    document.getElementById("zivotinja7").style.display = "block";
+    document.getElementById("zivotinja13").src = "./PICAU/rakun.png";
+    document.getElementById("zivotinja13").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 8 && parseInt(input) <= 60) {
     document.getElementById("zivotinja8").src = "./PIC/slon.png";
@@ -140,16 +140,16 @@ function posalji() {
     document.getElementById("zivotinja9").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 10 && parseInt(input) <= 60) {
-    document.getElementById("zivotinja10").src = "./PIC/tigar.png";
-    document.getElementById("zivotinja10").style.display = "block";
+    document.getElementById("zivotinja2").src = "./PIC/tigar.png";
+    document.getElementById("zivotinja2").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 10 && parseInt(input) <= 120) {
-    document.getElementById("zivotinja10").src = "./PICAG/tigar.png";
-    document.getElementById("zivotinja10").style.display = "block";
+    document.getElementById("zivotinja2").src = "./PICAG/tigar.png";
+    document.getElementById("zivotinja2").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 10 && parseInt(input) <= 6000) {
-    document.getElementById("zivotinja10").src = "./PICAU/tigar.png";
-    document.getElementById("zivotinja10").style.display = "block";
+    document.getElementById("zivotinja2").src = "./PICAU/tigar.png";
+    document.getElementById("zivotinja2").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 11 && parseInt(input) <= 60) {
     document.getElementById("zivotinja11").src = "./PIC/veverica.png";
@@ -176,16 +176,16 @@ function posalji() {
     document.getElementById("zivotinja12").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 13 && parseInt(input) <= 60) {
-    document.getElementById("zivotinja13").src = "./PIC/zeka.png";
-    document.getElementById("zivotinja13").style.display = "block";
+    document.getElementById("zivotinja7").src = "./PIC/zeka.png";
+    document.getElementById("zivotinja7").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 13 && parseInt(input) <= 120) {
-    document.getElementById("zivotinja13").src = "./PICAG/zeka.png";
-    document.getElementById("zivotinja13").style.display = "block";
+    document.getElementById("zivotinja7").src = "./PICAG/zeka.png";
+    document.getElementById("zivotinja7").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 13 && parseInt(input) <= 6000) {
-    document.getElementById("zivotinja13").src = "./PICAU/zeka.png";
-    document.getElementById("zivotinja13").style.display = "block";
+    document.getElementById("zivotinja7").src = "./PICAU/zeka.png";
+    document.getElementById("zivotinja7").style.display = "block";
     brojZivotinje++;
   } else if (brojZivotinje == 14 && parseInt(input) <= 60) {
     document.getElementById("zivotinja14").src = "./PIC/zirafa.png";
