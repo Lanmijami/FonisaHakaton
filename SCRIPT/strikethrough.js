@@ -7,7 +7,7 @@ function displayData() {
 
     if (inputData.trim() !== "") {
         var newDiv = document.createElement("div");
-        newDiv.innerHTML = inputCount + '. ' + startTime + " - " + endTime + " " + inputData;
+        newDiv.innerHTML = inputCount + '.  ' + startTime + " - " + endTime + "  " + inputData;
 
         newDiv.addEventListener("click", function() {
             toggleStrikethrough(newDiv);
