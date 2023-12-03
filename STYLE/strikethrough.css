@@ -19,7 +19,6 @@
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.2);
-  padding: 20px;
 }
 
 .navbarHolder a {
@@ -66,13 +65,12 @@ body {
   font-size: larger;
   width: 270px;
   background-color: rgba(241, 244, 246, 0.3);
-
 }
 
-#startTime{
+#startTime {
   background-color: rgba(241, 244, 246, 0.3);
 }
-#endTime{
+#endTime {
   background-color: rgba(241, 244, 246, 0.3);
 }
 
@@ -84,6 +82,12 @@ body {
   margin-top: 20px;
   font-weight: bold;
   font-size: large;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: rgb(121, 151, 175);
+  transform: scale(1.1);
 }
 
 .vreme {
@@ -99,7 +103,7 @@ body {
   line-height: 33px;
   font-size: 25px;
   top: 97px;
-  right: 390px;
+  left: 900px;
 }
 
 .container {
