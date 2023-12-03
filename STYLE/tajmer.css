@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 body{
-    DISPLAY: FLEX;
-    background: linear-gradient(0.25turn, #94daf8, #ebf8e1, #f8cc9e);
-    /* overflow-x: hidden; */
+    font-family: 'Roboto', sans-serif;
+
+   display: flex;
+   background-image: url('../slike/background.webp');
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
     flex-direction: column;
     align-items: center;
 }
