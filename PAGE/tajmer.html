@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/FonisaHakaton/STYLE/tajmer.css">
-    <script src="/FonisaHakaton/SCRIPT/tajmer.js" defer></script> 
-</head>
-<body>
+    <link rel="stylesheet" href="/FonisaHakaton/STYLE/tajmer.css" />
+    <script src="/FonisaHakaton/SCRIPT/tajmer.js" defer></script>
+  </head>
+  <body>
+    <div class="navbarHolder">
+      <a href="/FonisaHakaton/index.html">Home</a>
+      <a href="/FonisaHakaton/PAGE/tajmer.html">Timer</a>
+      <a href="/FonisaHakaton/PAGE/strikethrough.html">Strikethrough</a>
+    </div>
 
-<div id="timer">00:00:00</div>
-<div class="buttonHolder">
-    <button onclick="startTimer()" class="button">POKRENI</button>
-    <button onclick="stopTimer()" class="button">ZAUSTAVI</button>
-    <button onclick="resetTimer()" class="button">RESETUJ</button>
-</div>
-
-</body>
+    <div class="container">
+      <div id="timer">00:00:00</div>
+      <div class="buttonHolder">
+        <button onclick="startTimer()" class="button">POKRENI</button>
+        <button onclick="stopTimer()" class="button">ZAUSTAVI</button>
+        <button onclick="resetTimer()" class="button">RESETUJ</button>
+      </div>
+    </div>
+  </body>
 </html>

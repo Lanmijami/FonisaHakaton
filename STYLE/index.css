@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@300;700;900&family=Roboto:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: #5fc3e9;
+}
+
+.navbarHolder {
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 48px;
+  font-size: 1.3rem;
+
+  text-decoration: none;
+}
+
+.navbarHolder a {
+  color: black;
+}
+
+.title {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.button {
+  position: absolute;
+  top: 300px;
+  right: 20px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#submit {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.popUpHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  z-index: 10;
+}
+
+.popUp {
+  border: 1px solid black;
+  border-radius: 20px;
+  top: 200px;
+  left: 450px;
+  position: absolute;
+  background-color: #ffffff80;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+#input {
+  font-size: 2rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#background {
+  height: 120vh;
+  object-fit: cover;
+}
+
+.zivotinja {
+  position: absolute;
+  height: 100px;
+  display: none;
+  z-index: 9;
+}
+
+#zivotinja1 {
+  left: 70px;
+  top: 500px;
+}
+
+#zivotinja2 {
+  left: 220px;
+  top: 300px;
+}
+
+#zivotinja3 {
+  left: 380px;
+  top: 230px;
+}
+
+#zivotinja4 {
+  left: 350px;
+  top: 500px;
+}
+
+#zivotinja5 {
+  left: 470px;
+  top: 590px;
+}
+
+#zivotinja6 {
+  left: 570px;
+  top: 380px;
+}
+
+#zivotinja7 {
+  left: 940px;
+  top: 560px;
+}
+
+#zivotinja8 {
+  left: 880px;
+  top: 350px;
+}
+
+#zivotinja9 {
+  left: 715px;
+  top: 615px;
+}
+
+#zivotinja10 {
+  left: 980px;
+  top: 250px;
+}
+
+#zivotinja11 {
+  left: 590px;
+  top: 560px;
+}
+
+#zivotinja12 {
+  left: 1150px;
+  top: 400px;
+}
+
+#zivotinja13 {
+  left: 1060px;
+  top: 290px;
+}
+
+#zivotinja14 {
+  left: 1280px;
+  top: 380px;
+}
