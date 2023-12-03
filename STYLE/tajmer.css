@@ -21,11 +21,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .navbarHolder {
-  height: 50px;
+  height: 20px;
   background-color: rgb(209, 190, 166);
   display: flex;
   justify-content: space-evenly;

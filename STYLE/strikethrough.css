@@ -8,7 +8,7 @@
 }
 
 .navbarHolder {
-  height: 50px;
+  height: 20px;
   background-color: rgb(209, 190, 166);
   display: flex;
   justify-content: space-evenly;
@@ -66,13 +66,12 @@ body {
   font-size: larger;
   width: 270px;
   background-color: rgba(241, 244, 246, 0.3);
-
 }
 
-#startTime{
+#startTime {
   background-color: rgba(241, 244, 246, 0.3);
 }
-#endTime{
+#endTime {
   background-color: rgba(241, 244, 246, 0.3);
 }
 
